@@ -1,5 +1,7 @@
 # Fama-French 3 Factor Model
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18883631.svg)](https://doi.org/10.5281/zenodo.18883631)
+
 > A complete, academically rigorous implementation of the Fama-French (1993) three-factor model using WRDS (CRSP + Compustat) data.
 
 ---
@@ -222,6 +224,21 @@ python main.py --start 2000-07-01 --end 2023-12-31
 - Davis, J.L., Fama, E.F. and French, K.R. (2000). "Characteristics, Covariances, and Average Returns: 1929 to 1997." *Journal of Finance*, 55(1), 389-406.
 - Kenneth French's Data Library: https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html
 
+### Citation
+
+If you use this code in your research, please cite:
+
+```bibtex
+@software{jihwanw_ff3,
+  author    = {jihwanw},
+  title     = {Fama-French 3 Factor Model},
+  year      = {2026},
+  publisher = {GitHub},
+  url       = {https://github.com/jihwanw/fama-french-3factor},
+  doi       = {10.5281/zenodo.18883631}
+}
+```
+
 ---
 
 ---
@@ -415,3 +432,18 @@ python main.py --start 2000-07-01 --end 2023-12-31
 - Fama, E.F. and French, K.R. (1993). "Common risk factors in the returns on stocks and bonds." *Journal of Financial Economics*, 33(1), 3-56.
 - Davis, J.L., Fama, E.F. and French, K.R. (2000). "Characteristics, Covariances, and Average Returns: 1929 to 1997." *Journal of Finance*, 55(1), 389-406.
 - Kenneth French's Data Library: https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html
+
+### 인용
+
+이 코드를 연구에 사용하시면 아래와 같이 인용해주세요:
+
+```bibtex
+@software{jihwanw_ff3,
+  author    = {jihwanw},
+  title     = {Fama-French 3 Factor Model},
+  year      = {2026},
+  publisher = {GitHub},
+  url       = {https://github.com/jihwanw/fama-french-3factor},
+  doi       = {10.5281/zenodo.18883631}
+}
+```
